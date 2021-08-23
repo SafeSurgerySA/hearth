@@ -28,6 +28,7 @@ See an example file [here](default.json).
 * `authentication.jwt.validateAudience` e.g. "^hearth:example-app\\d+$" - a regular expression to match when validating the audience of a JWT token.
 * `authentication.jwt.expiresIn` e.g. "1d" - the expiry time to set when signing a JWT token.
 * `logger.level` e.g. "info" - the winston logger level, see [here](https://github.com/winstonjs/winston#logging-levels)
+* `logger.format` e.g. "json" to enable structured logging in JSON format. Valid options: `text` or `json`.
 * `idGenerator` e.g. "uuidv4" - which uuid algorithm to use to generate unique identifier for resoruces. See [here](https://github.com/kelektiv/node-uuid). We recommend using uuidv4 as it produces random IDs which would be difficult to guess without knowing the actual ID.
 * `atnaAudit.enabled` e.g. true - enables sending of ATNA audits for PIXm and PDQm IHE profiles.
 * `atnaAudit.interface` e.g. "udp" - interface to send audits on. Valid options: `udp`, `tls` or `tcp`.
