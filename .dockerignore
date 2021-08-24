@@ -1,2 +1,10 @@
+.travis
+.travis.yml
+.vscode
 node_modules
-data
+performance
+test
+LICENSE
+license-format.json
+licenses.json
+README.md
