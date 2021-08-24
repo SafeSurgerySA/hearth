@@ -23,7 +23,8 @@
     }
   },
   "logger": {
-    "level": "info"
+    "level": "info",
+    "format": "text"
   },
   "idGenerator": "uuidv4",
   "atnaAudit": {
