@@ -14,3 +14,8 @@ services:
       mongodb__url: "mongodb://mongo-db/hearth"
     ports:
       - "3447:3447"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3447/api/heartbeat"]
+      timeout: 5s
+      interval: 10s
+      retries: 3
