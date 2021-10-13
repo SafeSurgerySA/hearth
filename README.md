@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/jembi/hearth.svg?branch=master)](https://travis-ci.org/jembi/hearth) [![codecov](https://codecov.io/gh/jembi/hearth/branch/master/graph/badge.svg)](https://codecov.io/gh/jembi/hearth)
+[![Build and Publish Docker Image](https://github.com/SafeSurgerySA/hearth/actions/workflows/build-publish-docker-image.yml/badge.svg)](https://github.com/SafeSurgerySA/hearth/actions/workflows/build-publish-docker-image.yml)  
+[![codecov](https://codecov.io/gh/jembi/hearth/branch/master/graph/badge.svg)](https://codecov.io/gh/jembi/hearth)  
 
 # Hearth
 HEARTH (noun): the floor of a '[FHIR](http://hl7.org/fhir/)'place. A fast FHIR-compliant server focused on longitudinal data stores.
